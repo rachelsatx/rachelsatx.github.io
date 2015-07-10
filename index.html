@@ -1,7 +1,107 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.deep_orange-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style>
+  #view-source {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+  }
+</style>
+
+<style>
+  .mdl-grid {
+    max-width: 860px;
+    margin-bottom: 48px;
+  }
+</style>
+
 <html>
 <body>
-	<h1>My gitHub Page?</h1>
+  <!-- Simple header with scrollable tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Rachel Wilson's Github</span>
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+      <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
+      <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
+      <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
+      <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
+      <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+    </div>
+  </header>
+
+  <main class="mdl-layout__content">
+    <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+      <div class="page-content"><!-- Your content goes here -->
+
+        <section class="section--center mdl-grid mdl-shadow--2dp">
+          <!-- <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            <i class="material-icons">play_circle_filled</i>
+          </header> -->
+          
+          <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+            <div class="mdl-card__title">
+              <h3>Matt Bomer 2048</h3>
+            </div>
+            <div class="mdl-card__supporting-text">
+              This is a game I made over the course of a few evenings in 2014, slightly after the height of the 2048 craze.  I had been learning about HTML and Javascript and wanted a chance to practice and learn while creating something I could play and share with others.  I was still very new to Git, so it was also a learning experience trying to navigate GitHub.
+            </div>
+            <div class="mdl-card__actions">
+              <a href="http://rachelsatx.github.io/MattBomer2048/">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Play the game!</button>
+              </a>
+            </div>
+          </div>
+          <div class="mdl-card__media mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" style="background:#fff;">
+            <img src="http://4.bp.blogspot.com/-eVdGeR-Bpug/UjSJflHoRhI/AAAAAAAAsBs/7tNG8Wh7HZQ/s1600/1234269_225830057573772_720891284_n.png" style="height:auto; max-width:100%;">
+          </div>
+          <!-- <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
+            <li class="mdl-menu__item">Lorem</li>
+            <li class="mdl-menu__item" disabled>Ipsum</li>
+            <li class="mdl-menu__item">Dolor</li>
+          </ul> -->
+        </section>
+
+
+      </div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+  </main>
+</div>
+
+
+
+	<!--<h1>My gitHub Page?</h1> -->
+	<a href="my2048/index.html">Matt Bomer 2048</a>
 
 </body>
 
